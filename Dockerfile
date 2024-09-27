@@ -1,7 +1,7 @@
 # This Dockerfile is intended for use by openshift/ci-operator config files defined
 # in openshift/release for v4.x prow based PR CI jobs
 
-FROM quay.io/openshift/origin-jenkins-agent-maven:4.11.0 AS builder
+FROM quay.io/openshift/origin-jenkins-agent-maven:4.14.0 AS builder
 WORKDIR /java/src/github.com/openshift/jenkins-client-plugin
 COPY . .
 USER 0
