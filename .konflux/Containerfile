@@ -1,4 +1,4 @@
-FROM registry.redhat.io/openshift4/ose-cli-rhel9:v4.16 as oc
+FROM registry.redhat.io/openshift4/ose-cli-rhel9:v4.17 as oc
 
 FROM registry.access.redhat.com/ubi9/openjdk-21:1.20-2.1721752936 as builder
 
